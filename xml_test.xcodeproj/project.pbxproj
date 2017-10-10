@@ -14,10 +14,8 @@
 		AE4393271F88FB1C005AD344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4393251F88FB1C005AD344 /* Main.storyboard */; };
 		AE4393291F88FB1C005AD344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4393281F88FB1C005AD344 /* Assets.xcassets */; };
 		AE43932C1F88FB1C005AD344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43932A1F88FB1C005AD344 /* LaunchScreen.storyboard */; };
-		AE5E788D1F8AA34400DE5525 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E788C1F8AA34400DE5525 /* NavigationController.swift */; };
 		AE6A12941F8AA746003332BF /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A12931F8AA746003332BF /* VerseController.swift */; };
 		AEDB12F01F8A27DD002845EE /* data in Resources */ = {isa = PBXBuildFile; fileRef = AEDB12EF1F8A27DC002845EE /* data */; };
-		AEDB12F21F8A2AD0002845EE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F11F8A2AD0002845EE /* StringExtension.swift */; };
 		AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F51F8A3A82002845EE /* KapitelController.swift */; };
 		AEDB12F81F8A48CD002845EE /* BuecherController-Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F71F8A48CD002845EE /* BuecherController-Copy.swift */; };
 /* End PBXBuildFile section */
@@ -34,10 +32,8 @@
 		AE4393281F88FB1C005AD344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE43932B1F88FB1C005AD344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE43932D1F88FB1C005AD344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE5E788C1F8AA34400DE5525 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		AE6A12931F8AA746003332BF /* VerseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
 		AEDB12EF1F8A27DC002845EE /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
-		AEDB12F11F8A2AD0002845EE /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		AEDB12F51F8A3A82002845EE /* KapitelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapitelController.swift; sourceTree = "<group>"; };
 		AEDB12F71F8A48CD002845EE /* BuecherController-Copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BuecherController-Copy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,10 +97,8 @@
 				AE4393281F88FB1C005AD344 /* Assets.xcassets */,
 				AE43932A1F88FB1C005AD344 /* LaunchScreen.storyboard */,
 				AE43932D1F88FB1C005AD344 /* Info.plist */,
-				AEDB12F11F8A2AD0002845EE /* StringExtension.swift */,
 				AEDB12F51F8A3A82002845EE /* KapitelController.swift */,
 				AE6A12931F8AA746003332BF /* VerseController.swift */,
-				AE5E788C1F8AA34400DE5525 /* NavigationController.swift */,
 			);
 			path = xml_test;
 			sourceTree = "<group>";
@@ -235,12 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEDB12F81F8A48CD002845EE /* BuecherController-Copy.swift in Sources */,
-				AE5E788D1F8AA34400DE5525 /* NavigationController.swift in Sources */,
 				AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */,
 				AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */,
 				AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */,
 				AE6A12941F8AA746003332BF /* VerseController.swift in Sources */,
-				AEDB12F21F8A2AD0002845EE /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

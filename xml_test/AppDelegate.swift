@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  xml_test
-//
-//  Created by Simon Brüchner on 07.10.17.
-//  Copyright © 2017 Brüchner IT Consulting. All rights reserved.
-//
 
 import UIKit
 
@@ -13,24 +6,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-//        // Override point for customization after application launch.
-//
-//        // Starte mit dem BücherController
-//        let initialViewController: BuecherController? = BuecherController()
-//        self.window?.rootViewController = initialViewController
-//
-//        UINavigationController
-//
-//        return true
-//    }
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         // Starte mit dem BücherController
         let initialViewController: BuecherController? = BuecherController()
         self.window?.rootViewController = initialViewController
         
+        // TODO unklar wie man den Navigation Controller sauber in den anderen Controllern anspricht ... 
         // Navigation, see https://stackoverflow.com/a/38614047/22470
         let viewController = BuecherController(nibName: nil, bundle: nil) //ViewController = Name of your controller
         let navigationController = UINavigationController(rootViewController: viewController)

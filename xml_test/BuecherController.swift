@@ -1,10 +1,3 @@
-//
-//  BuecherController.swift
-//  xml_test
-//
-//  Created by Simon Brüchner on 07.10.17.
-//  Copyright © 2017 Brüchner IT Consulting. All rights reserved.
-//
 
 import UIKit
 import SWXMLHash
@@ -15,7 +8,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
     private var xmlliste = [String]()
     private var buecherliste = [String]()
     
-    private var myTableView: UITableView!
+    private var tableView: UITableView!
     
     // Tapevent: Wenn ein Zeile ausgewählt wird ...
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -40,6 +33,8 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
        
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // TODO unklar wie man dies in allen Controllern gleich setzt. 
         self.view.backgroundColor = UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         
         
@@ -86,11 +81,11 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         let displayHeight:  CGFloat = self.view.frame.height
         
         // Statt "44" self.navigationController.navigationBar.frame.size.height
-        myTableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))
-        myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
-        myTableView.dataSource = self
-        myTableView.delegate = self
-        self.view.addSubview(myTableView)
+        tableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+        tableView.dataSource = self
+        tableView.delegate = self
+        self.view.addSubview(tableView)
     }
 
     override func didReceiveMemoryWarning() {

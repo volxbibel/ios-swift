@@ -1,10 +1,3 @@
-//
-//  BuecherController2.swift
-//  xml_test
-//
-//  Created by Simon Brüchner on 07.10.17.
-//  Copyright © 2017 Brüchner IT Consulting. All rights reserved.
-//
 
 import UIKit
 import SWXMLHash

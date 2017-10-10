@@ -35,6 +35,8 @@ class VerseController: UIViewController {
             let elem2 = xml["Bibel"]["Buch"]["Kapitel"][self.Kapitel!-1]
             for elem4 in elem2["Abschnitt"].all {
                 
+                // TODO hier unklar wie die (Zwischen)Überschriften "elem4["Us1"].element!.text" speziell formatiert dargestellt werden können.
+
 //                print(elem4["Us1"].element!.text)
 //
 //                let existingTextString = textView.text
@@ -63,7 +65,7 @@ class VerseController: UIViewController {
                 }
             }
 
-            
+            // TODO hier fehlen auch noch die Fußnoten in spezieller Formatierung
 
         } catch {
             print(error)

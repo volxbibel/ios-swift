@@ -14,12 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // TODO unklar wie man den Navigation Controller sauber in den anderen Controllern anspricht ... 
         // Navigation, see https://stackoverflow.com/a/38614047/22470
-        let viewController = BuecherController(nibName: nil, bundle: nil) //ViewController = Name of your controller
-        let navigationController = UINavigationController(rootViewController: viewController)
+        let navigationController = UINavigationController(rootViewController: initialViewController!)
 
-        navigationController.isNavigationBarHidden = false
-        navigationController.navigationBar.topItem?.title = "Volxbibel"
-        navigationController.navigationBar.tintColor = UIColor.black
+        navigationController.isNavigationBarHidden          = false
+        navigationController.navigationBar.topItem?.title   = "Volxbibel"
+        navigationController.navigationBar.tintColor        = UIColor.black
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = navigationController

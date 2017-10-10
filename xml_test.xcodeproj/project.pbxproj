@@ -17,7 +17,7 @@
 		AE6A12941F8AA746003332BF /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A12931F8AA746003332BF /* VerseController.swift */; };
 		AEDB12F01F8A27DD002845EE /* data in Resources */ = {isa = PBXBuildFile; fileRef = AEDB12EF1F8A27DC002845EE /* data */; };
 		AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F51F8A3A82002845EE /* KapitelController.swift */; };
-		AEDB12F81F8A48CD002845EE /* BuecherController-Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F71F8A48CD002845EE /* BuecherController-Copy.swift */; };
+		AEDB12F81F8A48CD002845EE /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F71F8A48CD002845EE /* Backup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		AE6A12931F8AA746003332BF /* VerseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
 		AEDB12EF1F8A27DC002845EE /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 		AEDB12F51F8A3A82002845EE /* KapitelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapitelController.swift; sourceTree = "<group>"; };
-		AEDB12F71F8A48CD002845EE /* BuecherController-Copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BuecherController-Copy.swift"; sourceTree = "<group>"; };
+		AEDB12F71F8A48CD002845EE /* Backup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			children = (
 				AE4393211F88FB1C005AD344 /* AppDelegate.swift */,
 				AE4393231F88FB1C005AD344 /* BuecherController.swift */,
-				AEDB12F71F8A48CD002845EE /* BuecherController-Copy.swift */,
+				AEDB12F71F8A48CD002845EE /* Backup.swift */,
 				AE4393251F88FB1C005AD344 /* Main.storyboard */,
 				AE4393281F88FB1C005AD344 /* Assets.xcassets */,
 				AE43932A1F88FB1C005AD344 /* LaunchScreen.storyboard */,
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDB12F81F8A48CD002845EE /* BuecherController-Copy.swift in Sources */,
+				AEDB12F81F8A48CD002845EE /* Backup.swift in Sources */,
 				AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */,
 				AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */,
 				AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */,

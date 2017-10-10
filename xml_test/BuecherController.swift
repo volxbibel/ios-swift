@@ -54,10 +54,10 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         
         // Alle XMLs in ein Array schreiben
-        let dummy = Bundle.main.path(forResource: "01_Matthaeus", ofType: "xml", inDirectory: "data")
-        let url = URL(fileURLWithPath: dummy!)
-        let dirUrl = url.deletingLastPathComponent()
-        let en=FileManager().enumerator(atPath: dirUrl.path)
+        let dummy   = Bundle.main.path(forResource: "01_Matthaeus", ofType: "xml", inDirectory: "data")
+        let url     = URL(fileURLWithPath: dummy!)
+        let dirUrl  = url.deletingLastPathComponent()
+        let en      = FileManager().enumerator(atPath: dirUrl.path)
         while let element = en?.nextObject() as? String {
             if element.hasSuffix("xml") {
                 self.xmlliste.append(dirUrl.path+"/"+element)
@@ -81,9 +81,9 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         
         // Table view initialisieren
-        let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
-        let displayWidth: CGFloat = self.view.frame.width
-        let displayHeight: CGFloat = self.view.frame.height
+        let barHeight:      CGFloat = UIApplication.shared.statusBarFrame.size.height
+        let displayWidth:   CGFloat = self.view.frame.width
+        let displayHeight:  CGFloat = self.view.frame.height
         
         // Statt "44" self.navigationController.navigationBar.frame.size.height
         myTableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))

@@ -47,9 +47,9 @@ class BuecherController2: UIViewController, UITableViewDelegate, UITableViewData
         
         let color = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
         let txtField: UITextField = UITextField(frame: CGRect(x: 0, y: 0, width: 500.00, height: 30.00));
-        txtField.text = "myString"
-        txtField.borderStyle = UITextBorderStyle.line
-        txtField.backgroundColor = color
+        txtField.text               = "myString"
+        txtField.borderStyle        = UITextBorderStyle.line
+        txtField.backgroundColor    = color
         self.view.addSubview(txtField)
         
         // XML
@@ -114,9 +114,9 @@ class BuecherController2: UIViewController, UITableViewDelegate, UITableViewData
                 
                 
                 // Table
-                let barHeight: CGFloat = UIApplication.shared.statusBarFrame.size.height
-                let displayWidth: CGFloat = self.view.frame.width
-                let displayHeight: CGFloat = self.view.frame.height
+                let barHeight:      CGFloat = UIApplication.shared.statusBarFrame.size.height
+                let displayWidth:   CGFloat = self.view.frame.width
+                let displayHeight:  CGFloat = self.view.frame.height
                 
                 myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
                 myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")

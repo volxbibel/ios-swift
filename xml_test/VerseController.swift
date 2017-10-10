@@ -11,8 +11,8 @@ class VerseController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "Kapitel "+String(describing: self.Kapitel!)
-        self.view.backgroundColor = UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
+        self.title                  = "Kapitel "+String(describing: self.Kapitel!)
+        self.view.backgroundColor   = UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         
         // XML
         do {

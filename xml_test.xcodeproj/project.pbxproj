@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6AFB0CB247A3362B32E9F251 /* Pods_xml_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBE9C919B697246B9DD4DAE /* Pods_xml_test.framework */; };
 		AE0EDABA1F88FF4100C15489 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE0EDAB91F88FF4100C15489 /* Podfile */; };
+		AE1559AA1F8D80410075BCB0 /* .gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1559A91F8D80410075BCB0 /* .gitignore.swift */; };
 		AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4393211F88FB1C005AD344 /* AppDelegate.swift */; };
 		AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4393231F88FB1C005AD344 /* BuecherController.swift */; };
 		AE4393271F88FB1C005AD344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4393251F88FB1C005AD344 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		8FBE9C919B697246B9DD4DAE /* Pods_xml_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xml_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		904487DD60A4E768AFE1B41C /* Pods-xml_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xml_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-xml_test/Pods-xml_test.release.xcconfig"; sourceTree = "<group>"; };
 		AE0EDAB91F88FF4100C15489 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE1559A91F8D80410075BCB0 /* .gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore.swift; sourceTree = "<group>"; };
 		AE43931E1F88FB1C005AD344 /* xml_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xml_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4393211F88FB1C005AD344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4393231F88FB1C005AD344 /* BuecherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuecherController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		AE4393151F88FB1C005AD344 = {
 			isa = PBXGroup;
 			children = (
+				AE1559A91F8D80410075BCB0 /* .gitignore.swift */,
 				AEDB12EF1F8A27DC002845EE /* data */,
 				AE0EDAB91F88FF4100C15489 /* Podfile */,
 				AE4393201F88FB1C005AD344 /* xml_test */,
@@ -231,6 +234,7 @@
 				AEDB12F81F8A48CD002845EE /* Backup.swift in Sources */,
 				AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */,
 				AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */,
+				AE1559AA1F8D80410075BCB0 /* .gitignore.swift in Sources */,
 				AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */,
 				AE6A12941F8AA746003332BF /* VerseController.swift in Sources */,
 			);

@@ -1,0 +1,2 @@
+Ordner data muss "blau" gefärbt sein. Dies erreich man durch Targets > Build Phases > Copy Bundle Ressources. Dann dort den gesamten Ordner auswählen und adden.
+

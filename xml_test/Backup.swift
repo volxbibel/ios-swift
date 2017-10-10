@@ -6,7 +6,7 @@ class BuecherController2: UIViewController, UITableViewDelegate, UITableViewData
     
     // Table
     private var kapitelliste = [String]() // ["First","Second","Third", "vier"]
-    private var myTableView: UITableView!
+    private var tableView: UITableView!
     
     // Tapevent: Wenn ein Zeile ausgewählt wird ...
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -17,7 +17,7 @@ class BuecherController2: UIViewController, UITableViewDelegate, UITableViewData
 
         let KapitelView: KapitelController? = KapitelController()
         KapitelView?.Buch       = "Matthaeus"
-        KapitelView?.Kapitel    = Int(indexPath.row + 1)
+        // KapitelView?.Kapitel    = Int(indexPath.row + 1)
         self.present(KapitelView!, animated: true, completion: nil)
 
     }
@@ -93,7 +93,7 @@ class BuecherController2: UIViewController, UITableViewDelegate, UITableViewData
                 }
                 
                 
-                
+                // Debug ... 
                 func enumerate(indexer: XMLIndexer) {
                     for child in indexer.children {
                         print(child.element!.name)
@@ -111,11 +111,11 @@ class BuecherController2: UIViewController, UITableViewDelegate, UITableViewData
                 let displayWidth:   CGFloat = self.view.frame.width
                 let displayHeight:  CGFloat = self.view.frame.height
                 
-                myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
-                myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
-                myTableView.dataSource = self
-                myTableView.delegate = self
-                self.view.addSubview(myTableView)
+                tableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
+                tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+                tableView.dataSource = self
+                tableView.delegate = self
+                self.view.addSubview(tableView)
                 
             } catch {
                 print(error)

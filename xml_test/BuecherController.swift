@@ -4,17 +4,14 @@ import SWXMLHash
 
 class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    // Table
-    private var xmlliste = [String]()
-    private var buecherliste = [String]()
-    
-    private var tableView: UITableView!
+    private var xmlliste =      [String]()  // Liste der XML Dateien
+    private var buecherliste =  [String]()  // Liste der Büchernamen
+    private var tableView:      UITableView!
     
     // Tapevent: Wenn ein Zeile ausgewählt wird ...
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let KapitelView: KapitelController? = KapitelController()
         KapitelView?.Buch       = buecherliste[indexPath.row]
-        KapitelView?.Kapitel    = Int(indexPath.row + 1)
         KapitelView?.xmlfile    = xmlliste[indexPath.row]
         
         // Rufe anderen Controller auf dem navigationController von AppDelegate auf
@@ -34,22 +31,12 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // TODO unklar wie man dies in allen Controllern gleich setzt. 
+        // TODO unklar wie man dies für alle Controller global setzt. 
         self.view.backgroundColor = UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
         
         
-        
-//        let screenSize: CGRect = UIScreen.main.bounds
-//        let navBar: UINavigationBar = UINavigationBar(frame: CGRect(x:0, y:20, width: screenSize.width, height:screenSize.height * 0.09))
-//        let navItem = UINavigationItem(title: "Volxbibel");
-//        let doneItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.done, target: nil, action: "selector");
-//        navItem.rightBarButtonItem = doneItem;
-//        navBar.setItems([navItem], animated: false);
-
-        
-        
         // Alle XMLs in ein Array schreiben
-        let dummy   = Bundle.main.path(forResource: "01_Matthaeus", ofType: "xml", inDirectory: "data")
+        let dummy   = Bundle.main.path(forResource: "01_Matthaeus", ofType: "xml", inDirectory: "data") // Workaround um harten Pfad zu "data" Folder zu bekommen.
         let url     = URL(fileURLWithPath: dummy!)
         let dirUrl  = url.deletingLastPathComponent()
         let en      = FileManager().enumerator(atPath: dirUrl.path)

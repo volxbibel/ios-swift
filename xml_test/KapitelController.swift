@@ -4,12 +4,10 @@ import SWXMLHash
 
 class KapitelController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var Buch: String?
-    var Kapitel: Int? // Sollte nach Inhaltscontroller verschoben werden.
-    private var kapitelliste = [String]()
-    var xmlfile: String?
-    
-    private var myTableView: UITableView!
+    var Buch:                   String?     // Ausgewähltes Buch
+    private var kapitelliste =  [String]()  // Liste aller Kapitel
+    var xmlfile:                String?     // Der Pfad zur XML Datei des ausgewählten Buches
+    private var tableView:    UITableView!
     
     // Tapevent: Wenn ein Zeile ausgewählt wird ...
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -59,11 +57,11 @@ class KapitelController: UIViewController, UITableViewDelegate, UITableViewDataS
         let displayHeight:  CGFloat = self.view.frame.height
         
         // Statt "44" self.navigationController.navigationBar.frame.size.height
-        myTableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))
-        myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
-        myTableView.dataSource = self
-        myTableView.delegate = self
-        self.view.addSubview(myTableView)
+        tableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+        tableView.dataSource = self
+        tableView.delegate = self
+        self.view.addSubview(tableView)
     }
     
     override func didReceiveMemoryWarning() {

@@ -4,9 +4,9 @@ import SWXMLHash
 
 class VerseController: UIViewController {
 
-    var Buch: String?
-    var Kapitel: Int?
-    var xmlfile: String?
+    var Buch:       String? // Ausgewähltes Buch
+    var Kapitel:    Int?    // Ausgewähltes Kapitel
+    var xmlfile:    String? // Der Pfad zur XML Datei des ausgewählten Buches
     
     override func viewDidLoad() {
         super.viewDidLoad()

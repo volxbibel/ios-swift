@@ -378,6 +378,7 @@
 			baseConfigurationReference = 306CEC0CEF7D6768D7D29B36 /* Pods-xml_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E2J655BKXJ;
 				INFOPLIST_FILE = xml_test/Info.plist;
@@ -394,6 +395,7 @@
 			baseConfigurationReference = 904487DD60A4E768AFE1B41C /* Pods-xml_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E2J655BKXJ;
 				INFOPLIST_FILE = xml_test/Info.plist;

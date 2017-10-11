@@ -28,29 +28,53 @@ class VerseController: UIViewController {
             textView.frame.size.height = UIScreen.main.bounds.height
             view.addSubview(textView)
             
-            let newMutableString = textView.attributedText.mutableCopy() as! NSMutableAttributedString
-            let largeFont = UIFont(name: "Arial", size: 20)!
+            
+            let textViewText    = textView.attributedText.mutableCopy() as! NSMutableAttributedString
+            let us1Font         = UIFont.preferredFont(forTextStyle: .title1) // UIFont(name: "Arial", size: 20)!
+            let versFont        = UIFont.preferredFont(forTextStyle: .body)
+            let fussnoteFont    = UIFont.preferredFont(forTextStyle: .footnote)
 
+            var bodyParagraphStyle: NSMutableParagraphStyle = {
+                let style = NSMutableParagraphStyle()
+                style.lineSpacing = 5
+                style.paragraphSpacingBefore = 25
+                style.paragraphSpacing = 15
+//                 style.lineBreakMode =
+                return style
+            }()
+            
             // Verse ausgeben
             let elem2 = xml["Bibel"]["Buch"]["Kapitel"][self.Kapitel!-1] // Hier wird genau der Kapitel-Node im XML ausgewählt!
             for elem4 in elem2["Abschnitt"].all {
 
-                let us1 = NSAttributedString(string: elem4["Us1"].element!.text, attributes: [
-                    NSAttributedStringKey.foregroundColor: UIColor.red,
-                    NSAttributedStringKey.font: largeFont
-                    // NSAttributedStringKey.paragraphStyle: UIFontTextStyle.headline
-                    ])
-                newMutableString.append(us1)
+                let us1 = NSAttributedString(string: "\n"+elem4["Us1"].element!.text+"\n", attributes: [NSAttributedStringKey.font: us1Font])
+                textViewText.append(us1)
 
                 for elem3 in elem4["Grundtext"]["Vers"].all {
-                    let attrString1 = NSAttributedString(string: elem3["Versziffer"].element!.text+" "+elem3["Verstext"].element!.text+"\n")
-                    newMutableString.append(attrString1)
+                    let vers = NSAttributedString(string: elem3["Versziffer"].element!.text+" "+elem3["Verstext"].element!.text+"\n", attributes:[NSAttributedStringKey.font: versFont])
+                    textViewText.append(vers)
+                }
+                
+                for elem3 in elem4["Fussnote"].all {
+                    let fussnote = NSAttributedString(string: elem3["Fussnotenummer"].element!.text+" "+elem3["Fussnotetext"].element!.text, attributes:[NSAttributedStringKey.font: fussnoteFont, NSAttributedStringKey.paragraphStyle: bodyParagraphStyle])
+                    textViewText.append(fussnote)
+                    print(elem3["Fussnotetext"].element!.text)
                 }
             }
-
+            
+            
+            func enumerate(indexer: XMLIndexer) {
+                for child in indexer.children {
+                    print(child.element!.name)
+                    enumerate(indexer: child)
+                }
+            }
+            enumerate(indexer: xml["Bibel"]["Buch"]["Kapitel"][self.Kapitel!-1])
+            
+            
             // TODO hier fehlen auch noch die Fußnoten in spezieller Formatierung
             
-            textView.attributedText = newMutableString.copy() as! NSAttributedString
+            textView.attributedText = textViewText.copy() as! NSAttributedString
             
         } catch {
             print(error)

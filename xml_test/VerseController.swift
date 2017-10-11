@@ -27,45 +27,31 @@ class VerseController: UIViewController {
             textView.frame.size.width  = UIScreen.main.bounds.width
             textView.frame.size.height = UIScreen.main.bounds.height
             view.addSubview(textView)
-            // textView.text.append("a");
             
-            
+            let newMutableString = textView.attributedText.mutableCopy() as! NSMutableAttributedString
+            let largeFont = UIFont(name: "Arial", size: 20)!
+
             // Verse ausgeben
-            let elem2 = xml["Bibel"]["Buch"]["Kapitel"][self.Kapitel!-1]
+            let elem2 = xml["Bibel"]["Buch"]["Kapitel"][self.Kapitel!-1] // Hier wird genau der Kapitel-Node im XML ausgewählt!
             for elem4 in elem2["Abschnitt"].all {
-                
-                // TODO hier unklar wie die (Zwischen)Überschriften "elem4["Us1"].element!.text" speziell formatiert dargestellt werden können.
 
-//                print(elem4["Us1"].element!.text)
-//
-//                let existingTextString = textView.text
-//                let ueberschrift = elem4["Us1"].element!.text
-//                let textString = "\(existingTextString!)\n\(ueberschrift)"
-//                let attrText = NSMutableAttributedString(string: textString)
-//                let smallFont = UIFont(name: "Arial", size: 18.0)!
-//                let smallTextRange = (textString as NSString).range(of: ueberschrift)
-//                attrText.addAttribute(NSAttributedStringKey.font, value: smallFont, range: smallTextRange)
-//
-//                textView.attributedText = attrText
+                let us1 = NSAttributedString(string: elem4["Us1"].element!.text, attributes: [
+                    NSAttributedStringKey.foregroundColor: UIColor.red,
+                    NSAttributedStringKey.font: largeFont
+                    // NSAttributedStringKey.paragraphStyle: UIFontTextStyle.headline
+                    ])
+                newMutableString.append(us1)
 
-                
                 for elem3 in elem4["Grundtext"]["Vers"].all {
-                    textView.text.append(elem3["Versziffer"].element!.text+" "+elem3["Verstext"].element!.text+"\n");
-                    
-//                    let existingTextString = textView.text
-//                    let ueberschrift = elem3["Versziffer"].element!.text+" "+elem3["Verstext"].element!.text
-//                    let textString = "\(existingTextString!)\n\(ueberschrift)"
-//                    let attrText = NSMutableAttributedString(string: textString)
-////                    let smallFont = UIFont(name: "Arial", size: 18.0)!
-////                    let smallTextRange = (textString as NSString).range(of: ueberschrift)
-//                    attrText.addAttribute(NSAttributedStringKey.font, value: smallFont, range: smallTextRange)
-//
-//                    textView.append( = textString
+                    let attrString1 = NSAttributedString(string: elem3["Versziffer"].element!.text+" "+elem3["Verstext"].element!.text+"\n")
+                    newMutableString.append(attrString1)
                 }
             }
 
             // TODO hier fehlen auch noch die Fußnoten in spezieller Formatierung
-
+            
+            textView.attributedText = newMutableString.copy() as! NSAttributedString
+            
         } catch {
             print(error)
         }

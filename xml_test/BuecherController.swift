@@ -43,6 +43,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         while let element = en?.nextObject() as? String {
             if element.hasSuffix("xml") {
                 self.xmlliste.append(dirUrl.path+"/"+element)
+                break
             }
         }
         
@@ -55,11 +56,51 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
                     config.shouldProcessLazily = true
                 }.parse(text)
                 self.buecherliste.append((xml["Bibel"]["Buch"]["Titel"].element?.text)!)
+                break
             } catch {
                 print(error)
             }
         }
         print(self.buecherliste)
+        
+        
+        let textView = UITextView(frame: CGRect(x: 20.0, y: 90.0, width: 250.0, height: 300))
+        
+        textView.center = self.view.center
+        textView.textAlignment = NSTextAlignment.justified
+        textView.textColor = UIColor.black
+        textView.backgroundColor = UIColor.white
+        textView.text = "vb"
+        
+        
+//        // 1. base our script font on the preferred body font size
+//        let bodyFontDescriptor = UIFontDescriptor.preferredFontDescriptor(withTextStyle: UIFontTextStyle.body)
+//        let bodyFontSize = bodyFontDescriptor.fontAttributes[UIFontDescriptor.AttributeName.size] as! NSNumber
+//        let scriptFont = UIFont(descriptor: scriptFontDescriptor, size: CGFloat(bodyFontSize.floatValue))
+//
+//        // 2. create the attributes
+//        let boldAttributes = createAttributesForFontStyle(style: UIFontTextStyle.body.rawValue, withTrait:.traitBold)
+//        let italicAttributes = createAttributesForFontStyle(style: UIFontTextStyle.body.rawValue, withTrait:.traitItalic)
+//        let scriptAttributes = [NSAttributedStringKey.font : scriptFont]
+//        let redTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.red]
+        
+        
+        
+        
+        
+        let largeFont = UIFont(name: "Arial-BoldMT", size: 20)!
+        let smallFont = UIFont(name: "Arial", size: 15)!
+        
+        let string1 = NSAttributedString(string: "loading", attributes: [NSAttributedStringKey.foregroundColor: UIColor.red, NSAttributedStringKey.font: largeFont])
+        let string2 = NSAttributedString(string: "success", attributes: [NSAttributedStringKey.foregroundColor: UIColor.green])
+        
+        
+        
+        let newMutableString = textView.attributedText.mutableCopy() as! NSMutableAttributedString
+        newMutableString.append(string2)
+        newMutableString.append(string1)
+        textView.attributedText = newMutableString.copy() as! NSAttributedString
+       
         
         
         // Table view initialisieren
@@ -73,6 +114,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         tableView.dataSource = self
         tableView.delegate = self
         self.view.addSubview(tableView)
+//         self.view.addSubview(textView)
     }
 
     override func didReceiveMemoryWarning() {

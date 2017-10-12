@@ -58,20 +58,20 @@ class XMLParser {
     
     func getKapitelliste(Buchname: String) -> [String] {
         
-        do {
-            let text = try String(contentsOfFile:self.xmlfile!, encoding: String.Encoding.utf8)
-            let xml = SWXMLHash.config {
-                config in
-                config.shouldProcessLazily = true
-                }.parse(text)
-            
-            for elem in xml["Bibel"]["Buch"]["Kapitel"].all {
-                self.kapitelliste.append("Kapitel "+elem["Kapitelziffer"].element!.text)
-            }
-            
-        } catch {
-            print(error)
-        }
+//        do {
+//            let text = try String(contentsOfFile:self.xmlfile!, encoding: String.Encoding.utf8)
+//            let xml = SWXMLHash.config {
+//                config in
+//                config.shouldProcessLazily = true
+//                }.parse(text)
+//
+//            for elem in xml["Bibel"]["Buch"]["Kapitel"].all {
+//                self.kapitelliste.append("Kapitel "+elem["Kapitelziffer"].element!.text)
+//            }
+//            
+//        } catch {
+//            print(error)
+//        }
         
         
         

@@ -2,6 +2,7 @@
 import UIKit
 import SWXMLHash
 
+
 class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     private var xmlliste =      [String]()  // Liste der XML Dateien
@@ -70,7 +71,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         textView.textAlignment = NSTextAlignment.justified
         textView.textColor = UIColor.black
         textView.backgroundColor = UIColor.white
-        textView.text = "vb"
+        textView.text = "Volxbibel ..."
         
         
 //        // 1. base our script font on the preferred body font size

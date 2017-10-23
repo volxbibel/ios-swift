@@ -15,6 +15,7 @@
 		AE4393291F88FB1C005AD344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4393281F88FB1C005AD344 /* Assets.xcassets */; };
 		AE43932C1F88FB1C005AD344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43932A1F88FB1C005AD344 /* LaunchScreen.storyboard */; };
 		AE6A12941F8AA746003332BF /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A12931F8AA746003332BF /* VerseController.swift */; };
+		AE96481D1F9EB08500961449 /* BundleID-Hinweis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96481C1F9EB08500961449 /* BundleID-Hinweis.swift */; };
 		AEDB12F01F8A27DD002845EE /* data in Resources */ = {isa = PBXBuildFile; fileRef = AEDB12EF1F8A27DC002845EE /* data */; };
 		AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F51F8A3A82002845EE /* KapitelController.swift */; };
 		AEDB12F81F8A48CD002845EE /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F71F8A48CD002845EE /* Backup.swift */; };
@@ -33,6 +34,7 @@
 		AE43932B1F88FB1C005AD344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE43932D1F88FB1C005AD344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6A12931F8AA746003332BF /* VerseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
+		AE96481C1F9EB08500961449 /* BundleID-Hinweis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BundleID-Hinweis.swift"; sourceTree = "<group>"; };
 		AEDB12EF1F8A27DC002845EE /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 		AEDB12F51F8A3A82002845EE /* KapitelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapitelController.swift; sourceTree = "<group>"; };
 		AEDB12F71F8A48CD002845EE /* Backup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		AE4393151F88FB1C005AD344 = {
 			isa = PBXGroup;
 			children = (
+				AE96481C1F9EB08500961449 /* BundleID-Hinweis.swift */,
 				AEDB12EF1F8A27DC002845EE /* data */,
 				AE0EDAB91F88FF4100C15489 /* Podfile */,
 				AE4393201F88FB1C005AD344 /* xml_test */,
@@ -232,6 +235,7 @@
 				AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */,
 				AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */,
 				AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */,
+				AE96481D1F9EB08500961449 /* BundleID-Hinweis.swift in Sources */,
 				AE6A12941F8AA746003332BF /* VerseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,7 +380,7 @@
 				INFOPLIST_FILE = xml_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-2Q57BFW94";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2Q57BFW94.92Q57BFW94";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,7 +398,7 @@
 				INFOPLIST_FILE = xml_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-2Q57BFW94";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2Q57BFW94.92Q57BFW94";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

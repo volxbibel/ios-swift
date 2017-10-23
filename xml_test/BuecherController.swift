@@ -44,7 +44,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         while let element = en?.nextObject() as? String {
             if element.hasSuffix("xml") {
                 self.xmlliste.append(dirUrl.path+"/"+element)
-                break
+                // break // debug um Tests schneller auszuführen
             }
         }
         
@@ -57,7 +57,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
                     config.shouldProcessLazily = true
                 }.parse(text)
                 self.buecherliste.append((xml["Bibel"]["Buch"]["Titel"].element?.text)!)
-                break
+                // break // debug um Tests schneller auszuführen
             } catch {
                 print(error)
             }
@@ -105,12 +105,10 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         
         // Table view initialisieren
-        let barHeight:      CGFloat = UIApplication.shared.statusBarFrame.size.height
         let displayWidth:   CGFloat = self.view.frame.width
         let displayHeight:  CGFloat = self.view.frame.height
         
-        // Statt "44" self.navigationController.navigationBar.frame.size.height
-        tableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))
+        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: displayWidth, height: displayHeight))
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
         tableView.dataSource = self
         tableView.delegate = self

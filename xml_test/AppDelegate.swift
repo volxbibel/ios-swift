@@ -26,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.isNavigationBarHidden          = false
         navigationController.navigationBar.topItem?.title   = "Volxbibel"
         navigationController.navigationBar.tintColor        = UIColor.black
+        navigationController.navigationBar.isTranslucent    = true
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController = navigationController

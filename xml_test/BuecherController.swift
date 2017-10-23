@@ -90,7 +90,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         
         let largeFont = UIFont(name: "Arial-BoldMT", size: 20)!
-        let smallFont = UIFont(name: "Arial", size: 15)!
+        // let smallFont = UIFont(name: "Arial", size: 15)!
         
         let string1 = NSAttributedString(string: "loading", attributes: [NSAttributedStringKey.foregroundColor: UIColor.red, NSAttributedStringKey.font: largeFont])
         let string2 = NSAttributedString(string: "success", attributes: [NSAttributedStringKey.foregroundColor: UIColor.green])

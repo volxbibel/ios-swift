@@ -26,6 +26,7 @@ class VerseController: UIViewController {
             // textView.isSelectable = true
             textView.frame.size.width  = UIScreen.main.bounds.width
             textView.frame.size.height = UIScreen.main.bounds.height
+            textView.isEditable = false
             view.addSubview(textView)
             
             

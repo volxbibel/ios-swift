@@ -15,10 +15,8 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[UIViewController loadViewIfRequired]"
-                  moduleName = "UIKit"
                   usesParentBreakpointCondition = "Yes"
-                  offsetFromSymbolStart = "1208">
+                  offsetFromSymbolStart = "0">
                </Location>
             </Locations>
          </BreakpointContent>

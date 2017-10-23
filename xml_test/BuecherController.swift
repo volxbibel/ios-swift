@@ -62,7 +62,7 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
                 print(error)
             }
         }
-        print(self.buecherliste)
+        // print(self.buecherliste)
         
         
         let textView = UITextView(frame: CGRect(x: 20.0, y: 90.0, width: 250.0, height: 300))
@@ -113,7 +113,6 @@ class BuecherController: UIViewController, UITableViewDelegate, UITableViewDataS
         tableView.dataSource = self
         tableView.delegate = self
         self.view.addSubview(tableView)
-//         self.view.addSubview(textView)
     }
 
     override func didReceiveMemoryWarning() {

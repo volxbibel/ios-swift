@@ -3,7 +3,7 @@
 //
 //E2J655BKXJ.92Q57BFW94
 //
-//
+// Export nur über den Application Loader möglich mit der alten BundleID. In Xcode auch Product > Clean ausführen da sonst die ID gecacht wird?!
 //
 //
 //Aus vorheriger App Datei:

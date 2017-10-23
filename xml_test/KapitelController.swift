@@ -52,12 +52,12 @@ class KapitelController: UIViewController, UITableViewDelegate, UITableViewDataS
         
         
         // Table view initialisieren
-        let barHeight:      CGFloat = UIApplication.shared.statusBarFrame.size.height
+        // let barHeight:      CGFloat = UIApplication.shared.statusBarFrame.size.height
         let displayWidth:   CGFloat = self.view.frame.width
         let displayHeight:  CGFloat = self.view.frame.height
         
         // Statt "44" self.navigationController.navigationBar.frame.size.height
-        tableView = UITableView(frame: CGRect(x: 0, y: barHeight + 44, width: displayWidth, height: displayHeight - barHeight))
+        tableView = UITableView(frame: CGRect(x: 0, y: 0, width: displayWidth, height: displayHeight))
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
         tableView.dataSource = self
         tableView.delegate = self

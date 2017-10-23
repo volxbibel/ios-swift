@@ -25,7 +25,7 @@
 		8FBE9C919B697246B9DD4DAE /* Pods_xml_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xml_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		904487DD60A4E768AFE1B41C /* Pods-xml_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xml_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-xml_test/Pods-xml_test.release.xcconfig"; sourceTree = "<group>"; };
 		AE0EDAB91F88FF4100C15489 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE43931E1F88FB1C005AD344 /* xml_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xml_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE43931E1F88FB1C005AD344 /* Volxbibel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volxbibel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4393211F88FB1C005AD344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4393231F88FB1C005AD344 /* BuecherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuecherController.swift; sourceTree = "<group>"; };
 		AE4393261F88FB1C005AD344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		AE43931F1F88FB1C005AD344 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE43931E1F88FB1C005AD344 /* xml_test.app */,
+				AE43931E1F88FB1C005AD344 /* Volxbibel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE43931D1F88FB1C005AD344 /* xml_test */ = {
+		AE43931D1F88FB1C005AD344 /* Volxbibel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE4393301F88FB1C005AD344 /* Build configuration list for PBXNativeTarget "xml_test" */;
+			buildConfigurationList = AE4393301F88FB1C005AD344 /* Build configuration list for PBXNativeTarget "Volxbibel" */;
 			buildPhases = (
 				7FF35425899A530EFB1DD703 /* [CP] Check Pods Manifest.lock */,
 				AE43931A1F88FB1C005AD344 /* Sources */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = xml_test;
+			name = Volxbibel;
 			productName = xml_test;
-			productReference = AE43931E1F88FB1C005AD344 /* xml_test.app */;
+			productReference = AE43931E1F88FB1C005AD344 /* Volxbibel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE4393191F88FB1C005AD344 /* Build configuration list for PBXProject "xml_test" */;
+			buildConfigurationList = AE4393191F88FB1C005AD344 /* Build configuration list for PBXProject "Volxbibel" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE43931D1F88FB1C005AD344 /* xml_test */,
+				AE43931D1F88FB1C005AD344 /* Volxbibel */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +376,7 @@
 				INFOPLIST_FILE = xml_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.xml-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2Q57BFW94";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,7 +394,7 @@
 				INFOPLIST_FILE = xml_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.xml-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2Q57BFW94";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE4393191F88FB1C005AD344 /* Build configuration list for PBXProject "xml_test" */ = {
+		AE4393191F88FB1C005AD344 /* Build configuration list for PBXProject "Volxbibel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE43932E1F88FB1C005AD344 /* Debug */,
@@ -413,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE4393301F88FB1C005AD344 /* Build configuration list for PBXNativeTarget "xml_test" */ = {
+		AE4393301F88FB1C005AD344 /* Build configuration list for PBXNativeTarget "Volxbibel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE4393311F88FB1C005AD344 /* Debug */,

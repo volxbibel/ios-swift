@@ -1,4 +1,15 @@
-
+/*
+ 
+ 1. BundleID 92Q57BFW94 manuell mit einem Texteditor in die Plist schreiben.
+ 2. Archiv erstellen
+ 3. Im Organizer die App wählen und "Export" ausführen
+ 4. Via Xcode > Open Development Tool > Application Loader diesen starten
+ 5. Die exportierte IPA Datei auswählen und starten
+ 
+ In der Schlüsselverwaltung unter Ablage "störende" und redundante Zertifikate löschen
+ Alle !? Bzw. die Dev Zertifikate im Schlüsselbund die nicht matchen löschen!
+ 
+ */
 //307707.92Q57BFW94
 //
 //E2J655BKXJ.92Q57BFW94

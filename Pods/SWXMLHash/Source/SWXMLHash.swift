@@ -530,7 +530,7 @@ public enum XMLIndexer {
     /// All child elements from the currently indexed level
     public var children: [XMLIndexer] {
         var list = [XMLIndexer]()
-        for elem in all.map({ $0.element! }).flatMap({ $0 }) {
+        for elem in all.map({ $0.element! }).compactMap({ $0 }) {
             for elem in elem.xmlChildren {
                 list.append(XMLIndexer(elem))
             }

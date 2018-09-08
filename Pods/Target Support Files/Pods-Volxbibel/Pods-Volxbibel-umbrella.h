@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_xml_testVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_xml_testVersionString[];
+FOUNDATION_EXPORT double Pods_VolxbibelVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_VolxbibelVersionString[];
 

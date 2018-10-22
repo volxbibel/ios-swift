@@ -8,36 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		AE0EDABA1F88FF4100C15489 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE0EDAB91F88FF4100C15489 /* Podfile */; };
-		AE2624BE1FC1B0CD007C04C8 /* VolxbibelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2624BD1FC1B0CD007C04C8 /* VolxbibelUITests.swift */; };
 		AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4393211F88FB1C005AD344 /* AppDelegate.swift */; };
 		AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4393231F88FB1C005AD344 /* BuecherController.swift */; };
 		AE4393271F88FB1C005AD344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4393251F88FB1C005AD344 /* Main.storyboard */; };
 		AE4393291F88FB1C005AD344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4393281F88FB1C005AD344 /* Assets.xcassets */; };
 		AE43932C1F88FB1C005AD344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43932A1F88FB1C005AD344 /* LaunchScreen.storyboard */; };
 		AE6A12941F8AA746003332BF /* VerseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A12931F8AA746003332BF /* VerseController.swift */; };
-		AE844FDE1FC1B3F400B42D08 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE844FDD1FC1B3F400B42D08 /* SnapshotHelper.swift */; };
-		AE96481D1F9EB08500961449 /* BundleID-Hinweis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96481C1F9EB08500961449 /* BundleID-Hinweis.swift */; };
 		AEDB12F01F8A27DD002845EE /* data in Resources */ = {isa = PBXBuildFile; fileRef = AEDB12EF1F8A27DC002845EE /* data */; };
 		AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F51F8A3A82002845EE /* KapitelController.swift */; };
-		AEDB12F81F8A48CD002845EE /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB12F71F8A48CD002845EE /* Backup.swift */; };
+		FCF36AF40A48C8E8D0C161AA /* Pods_Volxbibel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508F66A2EBD86756ED7AE1FB /* Pods_Volxbibel.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AE2624C01FC1B0CD007C04C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE4393161F88FB1C005AD344 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE43931D1F88FB1C005AD344;
-			remoteInfo = Volxbibel;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		508F66A2EBD86756ED7AE1FB /* Pods_Volxbibel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volxbibel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CF0084D662029BA3155273 /* Pods-Volxbibel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volxbibel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Volxbibel/Pods-Volxbibel.release.xcconfig"; sourceTree = "<group>"; };
 		AE0EDAB91F88FF4100C15489 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE2624BB1FC1B0CD007C04C8 /* VolxbibelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolxbibelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE2624BD1FC1B0CD007C04C8 /* VolxbibelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolxbibelUITests.swift; sourceTree = "<group>"; };
-		AE2624BF1FC1B0CD007C04C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE43931E1F88FB1C005AD344 /* Volxbibel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volxbibel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4393211F88FB1C005AD344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4393231F88FB1C005AD344 /* BuecherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuecherController.swift; sourceTree = "<group>"; };
@@ -46,26 +31,19 @@
 		AE43932B1F88FB1C005AD344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE43932D1F88FB1C005AD344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6A12931F8AA746003332BF /* VerseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerseController.swift; sourceTree = "<group>"; };
-		AE844FDD1FC1B3F400B42D08 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		AE96481C1F9EB08500961449 /* BundleID-Hinweis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BundleID-Hinweis.swift"; sourceTree = "<group>"; };
 		AEDB12EF1F8A27DC002845EE /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = "<group>"; };
 		AEDB12F51F8A3A82002845EE /* KapitelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KapitelController.swift; sourceTree = "<group>"; };
-		AEDB12F71F8A48CD002845EE /* Backup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
+		AEDB12F71F8A48CD002845EE /* Backup.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Backup.txt; sourceTree = "<group>"; };
 		DD70B937F80F5D1463C9A5B0 /* Pods-Volxbibel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volxbibel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Volxbibel/Pods-Volxbibel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE2624B81FC1B0CD007C04C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE43931B1F88FB1C005AD344 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF36AF40A48C8E8D0C161AA /* Pods_Volxbibel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +53,7 @@
 		611064C1623EE6A043F527A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				508F66A2EBD86756ED7AE1FB /* Pods_Volxbibel.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,24 +67,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AE2624BC1FC1B0CD007C04C8 /* VolxbibelUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AE844FDD1FC1B3F400B42D08 /* SnapshotHelper.swift */,
-				AE2624BD1FC1B0CD007C04C8 /* VolxbibelUITests.swift */,
-				AE2624BF1FC1B0CD007C04C8 /* Info.plist */,
-			);
-			path = VolxbibelUITests;
-			sourceTree = "<group>";
-		};
 		AE4393151F88FB1C005AD344 = {
 			isa = PBXGroup;
 			children = (
 				AE96481C1F9EB08500961449 /* BundleID-Hinweis.swift */,
 				AEDB12EF1F8A27DC002845EE /* data */,
 				AE0EDAB91F88FF4100C15489 /* Podfile */,
-				AE4393201F88FB1C005AD344 /* xml_test */,
-				AE2624BC1FC1B0CD007C04C8 /* VolxbibelUITests */,
+				AE4393201F88FB1C005AD344 /* src */,
 				AE43931F1F88FB1C005AD344 /* Products */,
 				76D980E126250E221D7E4901 /* Pods */,
 				611064C1623EE6A043F527A7 /* Frameworks */,
@@ -116,17 +84,16 @@
 			isa = PBXGroup;
 			children = (
 				AE43931E1F88FB1C005AD344 /* Volxbibel.app */,
-				AE2624BB1FC1B0CD007C04C8 /* VolxbibelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE4393201F88FB1C005AD344 /* xml_test */ = {
+		AE4393201F88FB1C005AD344 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				AE4393211F88FB1C005AD344 /* AppDelegate.swift */,
 				AE4393231F88FB1C005AD344 /* BuecherController.swift */,
-				AEDB12F71F8A48CD002845EE /* Backup.swift */,
+				AEDB12F71F8A48CD002845EE /* Backup.txt */,
 				AE4393251F88FB1C005AD344 /* Main.storyboard */,
 				AE4393281F88FB1C005AD344 /* Assets.xcassets */,
 				AE43932A1F88FB1C005AD344 /* LaunchScreen.storyboard */,
@@ -134,30 +101,12 @@
 				AEDB12F51F8A3A82002845EE /* KapitelController.swift */,
 				AE6A12931F8AA746003332BF /* VerseController.swift */,
 			);
-			path = xml_test;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE2624BA1FC1B0CD007C04C8 /* VolxbibelUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE2624C41FC1B0CD007C04C8 /* Build configuration list for PBXNativeTarget "VolxbibelUITests" */;
-			buildPhases = (
-				AE2624B71FC1B0CD007C04C8 /* Sources */,
-				AE2624B81FC1B0CD007C04C8 /* Frameworks */,
-				AE2624B91FC1B0CD007C04C8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE2624C11FC1B0CD007C04C8 /* PBXTargetDependency */,
-			);
-			name = VolxbibelUITests;
-			productName = VolxbibelUITests;
-			productReference = AE2624BB1FC1B0CD007C04C8 /* VolxbibelUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		AE43931D1F88FB1C005AD344 /* Volxbibel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE4393301F88FB1C005AD344 /* Build configuration list for PBXNativeTarget "Volxbibel" */;
@@ -187,11 +136,6 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Brüchner IT Consulting";
 				TargetAttributes = {
-					AE2624BA1FC1B0CD007C04C8 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AE43931D1F88FB1C005AD344;
-					};
 					AE43931D1F88FB1C005AD344 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Manual;
@@ -212,19 +156,11 @@
 			projectRoot = "";
 			targets = (
 				AE43931D1F88FB1C005AD344 /* Volxbibel */,
-				AE2624BA1FC1B0CD007C04C8 /* VolxbibelUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE2624B91FC1B0CD007C04C8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE43931C1F88FB1C005AD344 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,37 +215,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE2624B71FC1B0CD007C04C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE2624BE1FC1B0CD007C04C8 /* VolxbibelUITests.swift in Sources */,
-				AE844FDE1FC1B3F400B42D08 /* SnapshotHelper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE43931A1F88FB1C005AD344 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDB12F81F8A48CD002845EE /* Backup.swift in Sources */,
 				AEDB12F61F8A3A82002845EE /* KapitelController.swift in Sources */,
 				AE4393241F88FB1C005AD344 /* BuecherController.swift in Sources */,
 				AE4393221F88FB1C005AD344 /* AppDelegate.swift in Sources */,
-				AE96481D1F9EB08500961449 /* BundleID-Hinweis.swift in Sources */,
 				AE6A12941F8AA746003332BF /* VerseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AE2624C11FC1B0CD007C04C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE43931D1F88FB1C005AD344 /* Volxbibel */;
-			targetProxy = AE2624C01FC1B0CD007C04C8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AE4393251F88FB1C005AD344 /* Main.storyboard */ = {
@@ -331,40 +248,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AE2624C21FC1B0CD007C04C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E2J655BKXJ;
-				INFOPLIST_FILE = VolxbibelUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.VolxbibelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e2a38308-bf5d-4502-b339-69dd49698803";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Volxbibel;
-			};
-			name = Debug;
-		};
-		AE2624C31FC1B0CD007C04C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E2J655BKXJ;
-				INFOPLIST_FILE = VolxbibelUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.VolxbibelUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e2a38308-bf5d-4502-b339-69dd49698803";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Volxbibel;
-			};
-			name = Release;
-		};
 		AE43932E1F88FB1C005AD344 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -482,15 +365,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = E2J655BKXJ;
-				INFOPLIST_FILE = xml_test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = 92Q57BFW94;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e2a38308-bf5d-4502-b339-69dd49698803";
+				PROVISIONING_PROFILE = "3466a884-5ccc-40e5-b007-d3110c24d567";
 				PROVISIONING_PROFILE_SPECIFIER = 92Q57BFW94;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -503,15 +387,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = E2J655BKXJ;
-				INFOPLIST_FILE = xml_test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/src/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = 92Q57BFW94;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e2a38308-bf5d-4502-b339-69dd49698803";
+				PROVISIONING_PROFILE = "3466a884-5ccc-40e5-b007-d3110c24d567";
 				PROVISIONING_PROFILE_SPECIFIER = 92Q57BFW94;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,15 +406,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE2624C41FC1B0CD007C04C8 /* Build configuration list for PBXNativeTarget "VolxbibelUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE2624C21FC1B0CD007C04C8 /* Debug */,
-				AE2624C31FC1B0CD007C04C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AE4393191F88FB1C005AD344 /* Build configuration list for PBXProject "Volxbibel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

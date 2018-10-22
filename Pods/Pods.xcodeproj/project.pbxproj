@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003533F484F81BDB4268FE298FB82630 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5DA68BBDE7B1A5C037349ACDEB828C /* SWXMLHash.swift */; };
 		015015ACC26E4ADC5741F7EB2EF7EAD3 /* Pods-Volxbibel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 492CA959B0A911A11C53F6818F72C021 /* Pods-Volxbibel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F726164C87D61069EE8A0389300D827 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EE7657D55A521CD6D39E9C03AEAB /* SWXMLHash+TypeConversion.swift */; };
 		397B3EE500523AC899DD6C8BBADE2DF8 /* Pods-Volxbibel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9990CA48BA6A0653DB43C647AFB5D /* Pods-Volxbibel-dummy.m */; };
-		41FBA6B29661DE94E3BCE0A35807AFC2 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D9B0A430D5C61CAF730AEDB753BDD /* SWXMLHash.swift */; };
+		3F06AB733B280FDF71D93B2D5772E99D /* SWXMLHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D399AA5092C33A76A909A7A16ED95A /* SWXMLHash-dummy.m */; };
 		42A4B349E147E9BD03992D1332AEE170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		550B3886FFEBABD4782DF547529B899C /* SWXMLHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CA2D4B4E49DA2DD7B8A41E10DBCD12 /* SWXMLHash-dummy.m */; };
-		57573AEA6A6585E01FF38F10415430D5 /* SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DA34E000FC52C808242F042D2D0418 /* SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57573AEA6A6585E01FF38F10415430D5 /* SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C80AC33C63E405EDBD7E260D01D087 /* SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F68219B61ED4E5DFDB894A91ED1609 /* shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FA68F31EA06F7215102ACD5882F08 /* shim.swift */; };
+		C663E4EF9DDE532B2245D15309328021 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB880D18AE1E619FEABF296C29BC0973 /* SWXMLHash+TypeConversion.swift */; };
 		D8C49522A72C4193DBBDF9A54ECAA742 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,28 +29,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08DA34E000FC52C808242F042D2D0418 /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
 		0ADB31AA6A3C4B774D83C9324F83E692 /* Pods-Volxbibel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Volxbibel.debug.xcconfig"; sourceTree = "<group>"; };
-		12B077A625DA55F80258DC14B2FC7055 /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
 		17E20F88B7159F1B56CA43A71C3316F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A45CB24BA1AF7D91129DD9CAAF8184B /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
-		1F8D9B0A430D5C61CAF730AEDB753BDD /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
 		297A5D12B414CDEDC65A820ABA2465B3 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA9DDE4B7F4E3E1A59E1274E8E4235A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C80AC33C63E405EDBD7E260D01D087 /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
 		492CA959B0A911A11C53F6818F72C021 /* Pods-Volxbibel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Volxbibel-umbrella.h"; sourceTree = "<group>"; };
 		4F370013258B6D9D2FA4953675EE1184 /* Pods-Volxbibel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Volxbibel.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A131FED2636BE23F98A9520D12DC833 /* Pods-Volxbibel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Volxbibel-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6F3E48E32D9B1F91912AC76A4BBC37D8 /* Pods_Volxbibel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Volxbibel.framework; path = "Pods-Volxbibel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7424F1AA630A6669B4E0094062A288D3 /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
-		77CA2D4B4E49DA2DD7B8A41E10DBCD12 /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
 		86A2EBC9B4C8D53D8676BA60E59183FB /* Pods-Volxbibel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Volxbibel.release.xcconfig"; sourceTree = "<group>"; };
 		8C1663208C0FF88115A658CA079C6A20 /* Pods-Volxbibel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Volxbibel-acknowledgements.plist"; sourceTree = "<group>"; };
+		908A18DDA1A660667AD3B56D7784AA6C /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A075C6DCCF43656365B8491B60C840A5 /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
 		A6E9990CA48BA6A0653DB43C647AFB5D /* Pods-Volxbibel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Volxbibel-dummy.m"; sourceTree = "<group>"; };
-		CAE7EE7657D55A521CD6D39E9C03AEAB /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		AF5DA68BBDE7B1A5C037349ACDEB828C /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
+		B19FA68F31EA06F7215102ACD5882F08 /* shim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = shim.swift; path = Source/shim.swift; sourceTree = "<group>"; };
+		B49E15D531D3CBD09F99DB5D50AC315B /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
+		BB880D18AE1E619FEABF296C29BC0973 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 		D4770227520427F4F48446D4BE156CE7 /* Pods-Volxbibel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Volxbibel-resources.sh"; sourceTree = "<group>"; };
 		D5CD69E425E5064C877814F61D7A2C11 /* Pods-Volxbibel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Volxbibel-frameworks.sh"; sourceTree = "<group>"; };
-		DF7CAA2E64F87BE6D2BB900A2204563C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D399AA5092C33A76A909A7A16ED95A /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,31 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		030971845A9690039BD4C4A72336E004 /* SWXMLHash */ = {
-			isa = PBXGroup;
-			children = (
-				1F8D9B0A430D5C61CAF730AEDB753BDD /* SWXMLHash.swift */,
-				CAE7EE7657D55A521CD6D39E9C03AEAB /* SWXMLHash+TypeConversion.swift */,
-				1F4C73E96C06AEADFDA08352B894CABC /* Support Files */,
-			);
-			name = SWXMLHash;
-			path = SWXMLHash;
-			sourceTree = "<group>";
-		};
-		1F4C73E96C06AEADFDA08352B894CABC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF7CAA2E64F87BE6D2BB900A2204563C /* Info.plist */,
-				12B077A625DA55F80258DC14B2FC7055 /* SWXMLHash.modulemap */,
-				7424F1AA630A6669B4E0094062A288D3 /* SWXMLHash.xcconfig */,
-				77CA2D4B4E49DA2DD7B8A41E10DBCD12 /* SWXMLHash-dummy.m */,
-				1A45CB24BA1AF7D91129DD9CAAF8184B /* SWXMLHash-prefix.pch */,
-				08DA34E000FC52C808242F042D2D0418 /* SWXMLHash-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SWXMLHash";
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +87,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F038B086B06CA3335C9E632B7286AE07 /* Pods */,
+				915E9C4FEDED31B2AFBB793046D87492 /* Pods */,
 				DBD27B87A6A229BD9F29E3E36ED14DDC /* Products */,
 				9A090C94A11E39E87C4AD421C6F66972 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		915E9C4FEDED31B2AFBB793046D87492 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F613B3FC49479CE82E465EAC5DEA6D28 /* SWXMLHash */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9A090C94A11E39E87C4AD421C6F66972 /* Targets Support Files */ = {
@@ -142,6 +127,20 @@
 			path = "Target Support Files/Pods-Volxbibel";
 			sourceTree = "<group>";
 		};
+		B6586FC4DFA9FD42402DD830AB34C4EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DA9DDE4B7F4E3E1A59E1274E8E4235A /* Info.plist */,
+				A075C6DCCF43656365B8491B60C840A5 /* SWXMLHash.modulemap */,
+				908A18DDA1A660667AD3B56D7784AA6C /* SWXMLHash.xcconfig */,
+				E7D399AA5092C33A76A909A7A16ED95A /* SWXMLHash-dummy.m */,
+				B49E15D531D3CBD09F99DB5D50AC315B /* SWXMLHash-prefix.pch */,
+				38C80AC33C63E405EDBD7E260D01D087 /* SWXMLHash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWXMLHash";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +158,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F038B086B06CA3335C9E632B7286AE07 /* Pods */ = {
+		F613B3FC49479CE82E465EAC5DEA6D28 /* SWXMLHash */ = {
 			isa = PBXGroup;
 			children = (
-				030971845A9690039BD4C4A72336E004 /* SWXMLHash */,
+				B19FA68F31EA06F7215102ACD5882F08 /* shim.swift */,
+				AF5DA68BBDE7B1A5C037349ACDEB828C /* SWXMLHash.swift */,
+				BB880D18AE1E619FEABF296C29BC0973 /* SWXMLHash+TypeConversion.swift */,
+				B6586FC4DFA9FD42402DD830AB34C4EC /* Support Files */,
 			);
-			name = Pods;
+			name = SWXMLHash;
+			path = SWXMLHash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +216,7 @@
 			buildConfigurationList = 55BB02C51BA3CFDBEDDEC70B19CEFFC6 /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
 			buildPhases = (
 				CF69B422FC8FFE9BED8562EC13D8F13D /* Headers */,
-				16070594AC100F6AA825DC7B300104B8 /* Sources */,
+				3F933397EBB5AF02317C5C052CC40D3F /* Sources */,
 				4399305E57137F8EE4F0E17995F68756 /* Frameworks */,
 				5E6ABF81014DD44AFFA8D13DB9246F32 /* Resources */,
 			);
@@ -271,13 +274,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16070594AC100F6AA825DC7B300104B8 /* Sources */ = {
+		3F933397EBB5AF02317C5C052CC40D3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F726164C87D61069EE8A0389300D827 /* SWXMLHash+TypeConversion.swift in Sources */,
-				550B3886FFEBABD4782DF547529B899C /* SWXMLHash-dummy.m in Sources */,
-				41FBA6B29661DE94E3BCE0A35807AFC2 /* SWXMLHash.swift in Sources */,
+				B2F68219B61ED4E5DFDB894A91ED1609 /* shim.swift in Sources */,
+				C663E4EF9DDE532B2245D15309328021 /* SWXMLHash+TypeConversion.swift in Sources */,
+				3F06AB733B280FDF71D93B2D5772E99D /* SWXMLHash-dummy.m in Sources */,
+				003533F484F81BDB4268FE298FB82630 /* SWXMLHash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,43 +305,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3920F79AC25FFA8C9D50FA19904C7368 /* Release */ = {
+		C7617D75BAC1F3267A4E3F8D8019DCAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7424F1AA630A6669B4E0094062A288D3 /* SWXMLHash.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWXMLHash/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
-				PRODUCT_MODULE_NAME = SWXMLHash;
-				PRODUCT_NAME = SWXMLHash;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5925D466DEA5E91D3A23EBC784CB1FE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7424F1AA630A6669B4E0094062A288D3 /* SWXMLHash.xcconfig */;
+			baseConfigurationReference = 908A18DDA1A660667AD3B56D7784AA6C /* SWXMLHash.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -360,7 +330,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -461,6 +431,40 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF5D6AC08083170F8710CBA71BF48AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908A18DDA1A660667AD3B56D7784AA6C /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_MODULE_NAME = SWXMLHash;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -578,8 +582,8 @@
 		55BB02C51BA3CFDBEDDEC70B19CEFFC6 /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5925D466DEA5E91D3A23EBC784CB1FE9 /* Debug */,
-				3920F79AC25FFA8C9D50FA19904C7368 /* Release */,
+				C7617D75BAC1F3267A4E3F8D8019DCAF /* Debug */,
+				DF5D6AC08083170F8710CBA71BF48AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
